@@ -104,3 +104,54 @@
   c4 c, r
 }
 
+%% BAR LINE
+
+\relative c'' {
+  g1 e1 \bar "||" c2. c'4 \bar "|."
+}
+
+%% ACCIDENTALS
+%{
+  sharp  -- is 升
+  flat   -- es 降
+  double -- `twice`, like `isis` or `eses`
+%}
+\relative c'' {
+  cis4 ees fisis, aeses
+}
+
+%% KEY SIGNATURES
+\relative c'' {
+  \key d \major
+  a1 |
+  \key c \minor
+  a1 |
+}
+
+\relative c'' {
+  \key d \major
+  cis4 d fis
+}
+
+%% TIES AND SLURS
+
+\relative c'' {
+  g4~ g c2~ | c4~ c8 a~a2 |
+  d4( c16) cis( d e c cis d) e( d4)
+  g4\( g8( a) b( c) b4\)
+}
+
+%% ARTICULATIONS
+\relative c'' {
+  c4-^ c-+ c-- c-!
+  c4-> c-. c2-_
+}
+
+%% DYNAMICS\
+% end with (de)cresendo or `\!`
+\relative c'' {
+  c4\ff c\mf c\p c\pp
+  c4\< c\ff\> c c\!
+}
+
+
