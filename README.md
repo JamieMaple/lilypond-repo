@@ -7,8 +7,6 @@
 
 1. `pitch`: 音高
 
-1. `timbre`: 音色
-
 1. `tempo`: 节拍
 
 1. `dynamic`: 力度变化
@@ -17,11 +15,19 @@
 
 1. `scale`: 音阶
 
+1. `timbre`: 音色
+
+1. `melody`: 旋律
+
 1. `middle C`:  中央C
 
 1. `octave`: 八度
 
 1. `accidental`: 变音记号
+
+1. `clef`: 谱号
+
+1. `rest`: 休止符
 
 ### 
 
