@@ -42,3 +42,15 @@
 
 1. `rest`: 休止符
 
+### 节拍与速度相关
+
+> https://en.wikipedia.org/wiki/Tempo
+
+| tempo            | bpm     |
+|------------------|---------|
+| Maricia          | 83-85   |
+| Moderato         | 108-120 |
+| Allegretto       | 108-120 |
+| Allegro moderato | 116-120 |
+| Allegro          | 120-156 |
+

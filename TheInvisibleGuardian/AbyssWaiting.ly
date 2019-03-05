@@ -12,7 +12,9 @@
   \new Staff {
     \new Voice {
       \relative c'' {
+        e4 e eis
       }
     }
   }
+  \midi {}
 }
